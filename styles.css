@@ -11723,3 +11723,10 @@ html {
     left: -2vw;
   }
 }
+.img-animate {
+    transition: transform 0.3s ease; /* Transisi untuk efek hover */
+}
+
+.img-animate:hover {
+    transform: scale(1.05); /* Membesarkan gambar sedikit saat hover */
+}
